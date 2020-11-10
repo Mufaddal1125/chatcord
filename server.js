@@ -21,7 +21,7 @@ const conn = mysql.createConnection({
 })
 
 
-//Insert Room Functio
+//Insert Room Function
 function addroom(room) {
      const sql = `INSERT INTO rooms(name) VALUES('${room}')`
 
